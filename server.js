@@ -32,12 +32,7 @@ app.use(express.static("public"));
 // Connect to the Mongo DB
 mongoose.connect("mongodb://localhost/newdb");
 
-// Routes
-// A GET route for scraping the  website
 
-
-
-// Route for grabbing a specific headline by id, populate it with it's note
 
 
 app.get("/scrape", function(req, res) {
